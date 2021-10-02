@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+	<title>微社区 - 忘记密码</title>
+</head>
+<body>
+	<div>
+		<p>
+			<b th:text="${email}"></b>, 您好! 😃
+		</p>
+		<p>
+			您正在找回 微社区 账号的密码, 本次操作的验证码为 <b th:text="${randomCode}"></b> ,
+			有效时间 10 分钟, 请您及时进行操作!
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+	<title>微社区 - 激活账号</title>
+</head>
+<body>
+	<div>
+		<p>
+			<b th:text="${email}"></b>, 您好! 😃
+		</p>
+		<p>
+			您正在注册 微社区, 这是一封激活邮件, 请点击
+			<a th:href="${url}">此链接</a>,
+			激活您的 微社区 账号! 🎉
+		</p>
+	</div>
+</body>
+</html>
